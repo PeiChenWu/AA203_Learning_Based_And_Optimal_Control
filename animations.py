@@ -1,6 +1,5 @@
 """
 Animations for various dynamical systems using `matplotlib`.
-
 Author: Spencer M. Richards
         Autonomous Systems Lab (ASL), Stanford
         (GitHub: spenrich)
@@ -15,10 +14,8 @@ import matplotlib.animation as animation
 
 def animate_cartpole(t, x, θ):
     """Animate the cart-pole system from given position data.
-
     All arguments are assumed to be 1-D NumPy arrays, where `x` and `θ` are the
     degrees of freedom of the cart-pole over time `t`.
-
     Example usage:
         import matplotlib.pyplot as plt
         from animations import animate_cartpole
@@ -100,10 +97,8 @@ def animate_cartpole(t, x, θ):
 
 def animate_planar_quad(t, x, y, θ):
     """Animate the planar quadrotor system from given position data.
-
     All arguments are assumed to be 1-D NumPy arrays, where `x`, `y`, and `θ`
     are the degrees of freedom of the planar quadrotor over time `t`.
-
     Example usage:
         import matplotlib.pyplot as plt
         from animations import animate_planar_quad

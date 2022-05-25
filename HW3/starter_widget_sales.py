@@ -100,6 +100,7 @@ for k in tqdm(range(max_iters)):
 
     # INSTRUCTIONS: Update `Q_vi` using value iteration.
 
+
     # ############################# END PART (b) ##############################
 
     if np.max(np.abs(Q_vi - Q_vi_prev)) < eps:
